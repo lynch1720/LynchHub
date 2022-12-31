@@ -14,7 +14,7 @@ local Window = Rayfield:CreateWindow({
             Invite = "r4bdgEda",
             RememberJoins = true
         },
-    KeySystem = true,
+    KeySystem = false,
     KeySettings = {
         Title = "Lynch Key",
         Subtitle = "Key System",
@@ -22,7 +22,7 @@ local Window = Rayfield:CreateWindow({
         FileName = "LyncKey",
         SaveKey = true,
         GrabKeyFromSite = false,
-        Key = "Lynch_akkw8dhso9ej0sl9"
+        Key = "Lynch_akkw8dhsossss9ej0sl9"
     }
 })
  
