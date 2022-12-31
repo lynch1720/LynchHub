@@ -192,7 +192,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-    Name = "Fluru",
+    Name = "Flury",
     Callback = function()
     loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
     end,
@@ -338,7 +338,7 @@ local Button = Tab:CreateButton({
 })
  
 local Button = Tab:CreateButton({
-    Name = "Life Hub",
+    Name = "Lite Hub",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
     end,
@@ -999,7 +999,7 @@ loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main
 	end,
 })	
 
-local Tab = Window:CreateTab("Shindo Life", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Build A Boat", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Scripts")
 
 local Button = Tab:CreateButton({
