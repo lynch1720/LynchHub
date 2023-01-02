@@ -1,0 +1,1596 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+ 
+local Window = Rayfield:CreateWindow({
+    Name = "Lynch Hub",
+    LoadingTitle = "Lynch on YouTube",
+    LoadingSubtitle = "by Lynch",
+    ConfigurationSaving = {
+        Enabled = true,
+        FolderName = nil, -- Create a custom folder for your hub/game
+        FileName = "Lynch Hub"
+    },
+        Discord = {
+            Enabled = false,
+            Invite = "r4bdgEda",
+            RememberJoins = true
+        },
+    KeySystem = False,
+    KeySettings = {
+        Title = "Lynch Key",
+        Subtitle = "Key System",
+        Note = "Join the discord (https://discord.gg/r4bdgEda)",
+        FileName = "LyncKey",
+        SaveKey = true,
+        GrabKeyFromSite = false,
+        Key = "Lynch_akkw8dhso9ej0sl9"
+    }
+})
+ 
+Rayfield:Notify({
+    Title = "Enjoy",
+    Content = "Thank you for using my Hub and Dont forget to join in my discord",
+    Duration = 5,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+        Ignore = {
+            Name = "Okay!",
+            Callback = function()
+                print("https://discord.gg/r4bdgEda")
+            end
+        },
+    },
+})
+
+local Tab = Window:CreateTab("Tools", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Keybind = Tab:CreateKeybind({
+	Name = "Destroy UI",
+	CurrentKeybind = "Q",
+	HoldToInteract = false,
+	Flag = "Destroy UI",
+	Callback = function(Keybind)
+		Rayfield:Destroy()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Keyboard",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Fly",
+	Callback = function()
+		loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Fling",
+	Callback = function()
+		loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "FE Admin & Ban Panel",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Infinite Yield",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Anti AFK",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/KazeOnTop/Rice-Anti-Afk/main/Wind", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Shift Lock",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Simplity Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/simplityv2/main/main"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Blox Fruit", e7c136af236d8fd10ee9024972c62b1f)
+local Section = Tab:CreateSection("Script")
+
+local Button = Tab:CreateButton({
+    Name = "CFrame Hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "UraniumXhub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumXhub/main/Mobile.lua"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "ThunderZ",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Skays Hub",
+    Callback = function()
+    loadstring(game:HttpGet("https://gitlab.com/L1ZOT/skays-hub/-/raw/main/Script/"..game.PlaceId.."/Script.lua"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Mokuro Old",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Mokuro New",
+    Callback = function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Zaque",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Hoho",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "ZenHub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bfmobile", true))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "MaxFast",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/MaxFast"))()
+    end,
+})
+
+local Tab = Window:CreateTab("Pet Simulator X", e7c136af236d8fd10ee9024972c62b1f)
+local Section = Tab:CreateSection("Script")
+
+local Button = Tab:CreateButton({
+    Name = "Project-WD",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+---key from https://discord.gg/u7JNWQcgsU
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "James",
+    Callback = function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Flury",
+    Callback = function()
+    loadstring(game:HttpGet("https://milkup.info/script/PetSimulatorX/"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Hoho",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end,
+})
+
+local Tab = Window:CreateTab("KAT", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+ 
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Aimbot",
+    Callback = function()
+        -- Subscribe to ZhenX Script
+-- Credits to the Owner
+ 
+local Camera = game:GetService("Workspace").CurrentCamera
+local Players = game:GetService("Players")
+local LocalPlayer = game:GetService("Players").LocalPlayer
+ 
+local function GetClosestPlayer()
+   local ClosestPlayer = nil
+   local FarthestDistance = math.huge
+ 
+   for i, v in pairs(Players.GetPlayers(Players)) do
+       if v ~= LocalPlayer and v.Character and v.Character.FindFirstChild(v.Character, "HumanoidRootPart") then
+           local DistanceFromPlayer = (LocalPlayer.Character.HumanoidRootPart.Position - v.Character.HumanoidRootPart.Position).Magnitude
+ 
+           if DistanceFromPlayer < FarthestDistance then
+               FarthestDistance = DistanceFromPlayer
+               ClosestPlayer = v
+           end
+       end
+   end
+ 
+   if ClosestPlayer then
+       return ClosestPlayer
+   end
+end
+ 
+local GameMetaTable = getrawmetatable(game)
+local OldGameMetaTableNamecall = GameMetaTable.__namecall
+setreadonly(GameMetaTable, false)
+ 
+GameMetaTable.__namecall = newcclosure(function(object, ...)
+   local NamecallMethod = getnamecallmethod()
+   local Arguments = {...}
+ 
+   if tostring(NamecallMethod) == "FindPartOnRayWithIgnoreList" then
+       local ClosestPlayer = GetClosestPlayer()
+       
+       if ClosestPlayer and ClosestPlayer.Character then
+           Arguments[1] = Ray.new(Camera.CFrame.Position, (ClosestPlayer.Character.Head.Position - Camera.CFrame.Position).Unit * (Camera.CFrame.Position - ClosestPlayer.Character.Head.Position).Magnitude)
+       end
+   end
+ 
+   return OldGameMetaTableNamecall(object, unpack(Arguments))
+end)
+ 
+setreadonly(GameMetaTable, true)
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Owl Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "JNHHGaming",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/Kat12/main/Kat"))()
+	end,
+})
+
+local Tab = Window:CreateTab("King Legacy", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+ 
+local Button = Tab:CreateButton({
+    Name = "Winnable Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xlostpexz/tyuiop/Fps/Loading.lua"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "One X Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xOneX/King-Legacy/main/README.md"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "StirkeHub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Mokuro",
+	Callback = function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+	end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Hoho",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+    end,
+})
+
+local Tab = Window:CreateTab("Shindo Life", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Project WD",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Main.lua"))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Life Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+    end,
+})
+ 
+local Button = Tab:CreateButton({
+    Name = "Infinite Spin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Xiovr/Roblox/main/SL.lua"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Platinium Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Platinium/main/Loader"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Combat Warriors", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Project Hook",
+	Callback = function()
+		loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Nova.xyz",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SussyImposterRed/Scripts/main/NEW_NOVA"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Lumber Tycoon 2", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "COOPER Duper",
+	Callback = function()
+		-- Gui to Lua
+-- Version: 1.0
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(29, 59, 255)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 4)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.188806891, 0, 0.256857842, 0)
+Frame.Size = UDim2.new(0, 107, 0, 156)
+Frame.Draggable = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+TextLabel.Size = UDim2.new(0, 107, 0, 20)
+TextLabel.Font = Enum.Font.Creepster
+TextLabel.Text = "COOPER DUPER"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 20.000
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(45, 30, 255)
+TextButton.Position = UDim2.new(0, 0, 0.128205135, 0)
+TextButton.Size = UDim2.new(0, 107, 0, 136)
+TextButton.Font = Enum.Font.Creepster
+TextButton.Text = "DUPE"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.TextSize = 30.000
+TextButton.TextWrapped = true
+ local UserInputService = game:GetService("UserInputService")
+
+        local gui = Frame
+
+        local dragging
+        local dragInput
+        local dragStart
+        local startPos
+
+        local function update(input)
+        	local delta = input.Position - dragStart
+        	gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+        end
+
+        gui.InputBegan:Connect(function(input)
+        	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        		dragging = true
+        		dragStart = input.Position
+        		startPos = gui.Position
+        		
+        		input.Changed:Connect(function()
+        			if input.UserInputState == Enum.UserInputState.End then
+        				dragging = false
+        			end
+        		end)
+        	end
+        end)
+
+        gui.InputChanged:Connect(function(input)
+        	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        		dragInput = input
+        	end
+        end)
+
+        UserInputService.InputChanged:Connect(function(input)
+        	if input == dragInput and dragging then
+        		update(input)
+        	end
+        end)
+-- get cooper
+local cooper = game.Players.LocalPlayer
+
+-- can relod functin
+local canRelod = function()
+	-- This script was generated by coopers's RemoteSpy: https://github.com/Upbolt/Hydroxide
+
+	local ohInstance1 = cooper
+
+	return game:GetService("ReplicatedStorage").LoadSaveRequests.ClientMayLoad:InvokeServer(ohInstance1) 
+end
+
+-- dup ax
+function dupAx()
+	if cooper.CurrentSaveSlot.Value == -1 then
+		TextButton.Text = "plz lolad ur slot"
+		task.wait(5)
+		TextButton.Text = "DUPE"
+	elseif cooper.CurrentSaveSlot.Value ~= -1 then
+		TextButton.Text = "wating cooldown"
+		repeat 
+			task.wait()
+		until canRelod()
+		-- This script was generated by coopers's RemoteSpy: https://github.com/Upbolt/Hydroxide
+
+		local ohNumber1 = cooper.CurrentSaveSlot.Value
+		local ohInstance2 = cooper
+
+		task.spawn(function()
+			game:GetService("ReplicatedStorage").LoadSaveRequests.RequestLoad:InvokeServer(ohNumber1, ohInstance2)
+		end)
+		task.wait()
+		cooper.Character.Head:Destroy()
+		TextButton.Text = "plz lolad ur slot on next screen"
+		task.wait(5)
+		TextButton.Text = "DUPE"
+	end
+end
+
+TextButton.MouseButton1Down:Connect(function()
+	dupAx()
+end)
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "COOPER TP Wood",
+	Callback = function()
+		-- Gui to Lua
+-- Version: 1
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local UIPadding = Instance.new("UIPadding")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+Frame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(0, 186, 0, 250)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 186, 0, 50)
+TextLabel.Font = Enum.Font.Bangers
+TextLabel.Text = "COOPER TRE GETTR"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextSize = 28.000
+
+ScrollingFrame.Parent = Frame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0, 0, 0.200000003, 0)
+ScrollingFrame.Size = UDim2.new(0, 186, 0, 200)
+ScrollingFrame.ScrollBarThickness = 2
+ScrollingFrame.AutomaticCanvasSize = Enum.AutomaticSize.Y
+
+UIPadding.Parent = ScrollingFrame
+UIPadding.PaddingBottom = UDim.new(0, 8)
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 8)
+
+-- cooper get trre
+local cooper = game.Players.LocalPlayer
+local treeregins = {}
+local treclases = {}
+local replicatedfarts = game.ReplicatedStorage
+local axeclasses = replicatedfarts:WaitForChild("AxeClasses")
+
+for _, cooper in next, workspace:GetChildren() do
+	if cooper.Name == "TreeRegion" then
+		table.insert(treeregins, cooper)
+	end
+end
+
+for _, cooper in next, treeregins do
+	for _, cooper in next, cooper:GetChildren() do
+		if cooper:FindFirstChild("TreeClass") and not table.find(treclases, cooper.TreeClass.Value) then
+			table.insert(treclases, cooper.TreeClass.Value)
+		end
+	end
+end
+
+function getAxStats(axName, treClas)
+	local coopermodule = axeclasses:FindFirstChild("AxeClass_"..axName)
+	if not coopermodule then return end
+	local axStats = require(coopermodule).new()
+	if axStats.SpecialTrees and axStats.SpecialTrees[treClas] then
+		for mini, cooper in next, axStats.SpecialTrees[treClas] do
+			axStats[mini] = cooper
+		end
+	end
+	return axStats
+end
+
+function getModlMass(model)
+	local total = 0
+	local woodsextions = 0
+	for _, v in next, model:GetDescendants() do
+		if v:IsA("BasePart") and v.Name ~= "Leaves" then
+			if v.Name == "WoodSection" then woodsextions = woodsextions + 1 end
+			total = total + v.Mass
+		end
+	end
+	return total, woodsextions
+end
+
+function getTrreOfClas(clas)
+	local posibilitys = {}
+	for _, cooper1 in next, treeregins do
+		for _, cooper2 in next, cooper1:GetChildren() do
+			if cooper2:IsA("Model") and cooper2:FindFirstChild("CutEvent") then
+				local trreclas = cooper2:FindFirstChild("TreeClass")
+				local onwer = cooper2:FindFirstChild("Owner")
+				if onwer and trreclas and onwer.Value == nil and trreclas.Value == clas then
+					local mas, secs = getModlMass(cooper2)
+					if secs > 1 then
+						table.insert(posibilitys, {
+							tre = cooper2,
+							mass = mas
+						})
+					end
+				end
+			end
+		end
+	end
+	table.sort(posibilitys, function(cooper1, cooper2)
+		return cooper1.mass > cooper2.mass
+	end)
+	return posibilitys[1] and posibilitys[1].tre or false, "No tree found."
+end
+
+function choppy(tre, ax)
+	task.wait()
+	cooper.Character.HumanoidRootPart.CFrame = CFrame.new(tre.WoodSection.Position + Vector3.new(5, 0, 0))
+	task.wait(0.25)
+	local axStats = getAxStats(ax.ToolName.Value, tre.TreeClass.Value)
+	local propertys = {
+		tool = ax,
+		height = 0.3,
+		faceVector = Vector3.new(1, 0, 0),
+		sectionId = 1,
+		hitPoints = axStats.Damage,
+		cooldown = axStats.SwingCooldown,
+		cuttingClass = "Axe"
+	}
+
+	local newtre, trecon = nil, nil
+	trecon = workspace.LogModels.ChildAdded:Connect(function(tre)
+		task.wait()
+		if tre.Owner.Value == cooper then
+			newtre = tre
+			trecon:Disconnect()
+			trecon = nil
+		end
+	end)
+	repeat
+		replicatedfarts.Interaction.RemoteProxy:FireServer(tre.CutEvent, propertys)
+		task.wait(axStats.SwingCooldown)
+	until newtre ~= nil
+	return newtre
+end
+
+function hahafunnygod()
+	local rootjoint = cooper.Character.HumanoidRootPart.RootJoint
+	rootjoint:Clone().Parent = rootjoint.Parent
+	rootjoint:Destroy()
+	task.wait()
+end
+
+function bringy(treclas)
+	local curpos = cooper.Character.HumanoidRootPart.CFrame
+	cooper.Character.Humanoid:UnequipTools()
+	task.wait()
+	local axs = {}
+	for _, cooper in next, cooper.Backpack:GetChildren() do
+		if cooper.Name ~= "BlueprintTool" and cooper:FindFirstChild("ToolName") then
+			table.insert(axs, {
+				ax = cooper,
+				stats = getAxStats(cooper.ToolName.Value, treclass)
+			})
+		end
+	end
+	if #axs == 0 then return false, "Pleas pickup a ax." end
+	table.sort(axs, function(cooper1, cooper2)
+		return cooper1.stats.Damage > cooper2.stats.Damage
+	end)
+	local ax = axs[1].ax
+	local tre, msg = getTrreOfClas(treclas)
+	if not tre then
+		return false, msg
+	end
+	if treclas == "LoneCave" then
+		if ax.ToolName.Value ~= "EndTimesAxe" then
+			return false, "2 get this tre u need end axe loser."
+		end
+		hahafunnygod()
+	end
+	local loptp = nil
+	if treclas ~= "LoneCave" then
+		loptp = game["Run Service"].Heartbeat:Connect(function()
+			cooper.Character.HumanoidRootPart.CFrame = CFrame.new(tre.WoodSection.Position + Vector3.new(5, 3, 0))
+		end)
+	end
+	tre = choppy(tre, ax)
+	if treclas ~= "LoneCave" then
+		loptp:Disconnect()
+		loptp = nil
+	end
+	task.wait(0.15)
+	task.spawn(function()
+		for cooper=1, 60 do
+			replicatedfarts.Interaction.ClientIsDragging:FireServer(tre)
+			task.wait()
+		end
+	end)
+	task.wait(0.1)
+	tre.PrimaryPart = tre.WoodSection
+	for i=1, 60 do
+		tre.PrimaryPart.Velocity = Vector3.new(0, 0, 0)
+		tre:PivotTo(curpos)
+		task.wait()
+	end
+	if treclas == "LoneCave" then
+		cooper.Character.Humanoid:UnequipTools()
+		task.wait()
+		cooper.Character.Head:Destroy()
+		cooper.CharacterAdded:Wait()
+		task.wait(1.5)
+	end
+	cooper.Character.HumanoidRootPart.CFrame = tre.WoodSection.CFrame
+	return true, "Don get tre!"
+end
+
+local notfy = function(titl, tex, durashin)
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = titl,
+		Text = tex,
+		Duration = durashin,
+	})
+end
+
+local addtre = function(tre)
+	local TreBButon = Instance.new("TextButton")
+	TreBButon.Name = "TreBButon"
+	TreBButon.Parent = ScrollingFrame
+	TreBButon.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+	TreBButon.Position = UDim2.new(0.0483870953, 0, 0, 0)
+	TreBButon.Size = UDim2.new(0, 168, 0, 36)
+	TreBButon.Font = Enum.Font.Bangers
+	TreBButon.Text = tre
+	TreBButon.TextColor3 = Color3.fromRGB(0, 0, 255)
+	TreBButon.TextScaled = true
+	TreBButon.TextSize = 28.000
+	TreBButon.TextWrapped = true
+	TreBButon.MouseButton1Click:Connect(function()
+		local suces, mesg = bringy(tre)
+		if suces == true then
+			notfy("Suces!", mesg, 5)
+		elseif not (suces == true) then
+			notfy("Not suces!", mesg, 5)
+		end
+	end)
+end
+
+for _, cooper in next, treclases do
+	addtre(cooper)
+end
+
+local UserInputService = game:GetService("UserInputService")
+
+        local gui = Frame
+
+        local dragging
+        local dragInput
+        local dragStart
+        local startPos
+
+        local function update(input)
+        	local delta = input.Position - dragStart
+        	gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+        end
+
+        gui.InputBegan:Connect(function(input)
+        	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+        		dragging = true
+        		dragStart = input.Position
+        		startPos = gui.Position
+        		
+        		input.Changed:Connect(function()
+        			if input.UserInputState == Enum.UserInputState.End then
+        				dragging = false
+        			end
+        		end)
+        	end
+        end)
+
+        gui.InputChanged:Connect(function(input)
+        	if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+        		dragInput = input
+        	end
+        end)
+
+        UserInputService.InputChanged:Connect(function(input)
+        	if input == dragInput and dragging then
+        		update(input)
+        	end
+        end)
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Noob Army",
+	Callback = function()
+		loadstring(game:HttpGet('https://getexploits.com/key-system/',true))('https://da.com/936657404291084298/1006220505583460352/Script.txt')
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Butter Hub",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DragonDupe/Subscribe/main/Nothing-Here"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Arsenal", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "PWNER HUB",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Owl Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+	end,
+})
+	
+	local Tab = Window:CreateTab("Blox Burg", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Scar Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/PainfulDestroyer/Roblox/main/Scar%20Hub"))()
+	end,
+})
+
+local Tab = Window:CreateTab("MM2", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Drifter",
+	Callback = function()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "MM2 Skin Visual",
+	Callback = function()
+		-- You can edit min and max, if you want more of each set max higher
+local WeaponOwnRange = {
+min=5000,
+max=10000
+}
+
+local DataBase, PlayerData = getrenv()._G.Database, getrenv()._G.PlayerData
+
+local newOwned = {}
+
+for i,v in next, DataBase.Item do
+newOwned[i] = math.random(WeaponOwnRange.min, WeaponOwnRange.max) -- newOwned[Weapon]: ItemCount
+end
+
+local PlayerWeapons = PlayerData.Weapons
+
+game:GetService("RunService"):BindToRenderStep("InventoryUpdate", 0, function()
+PlayerWeapons.Owned = newOwned
+end)
+
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end,
+})
+
+local Tab = Window:CreateTab("Project New World", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Winnable Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/xlostpexz/tyuiop/Fps/Loading.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Platinium Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Platinium/main/Loader"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto Farm",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/samandroidpro/Scripts2022/main/NewWorld.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "TP Chest + Hop",
+	Callback = function()
+		loadstring(game:HttpGet("https://srilol.tk"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Sword Fighters", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "DisticHub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/DisticHub/main/Loader.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Versus Airliness",
+	Callback = function()
+		loadstring(game:HttpGet("https://versus-airlines.cf/V3/Loader.lua"))()
+
+	end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "Zaque",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Mei2232/ZaqueHub/main/Zaque%20Hub"))()
+    end,
+})
+
+local Tab = Window:CreateTab("Anime Fighting Sim", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Unlimited Yen",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/animefightingsimulator"))()
+	end,
+})
+
+local Tab = Window:CreateTab("A one piece Game", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")	
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Lazy Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+	end,
+})	
+	
+local Button = Tab:CreateButton({
+	Name = "Uzu Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+	end,
+})	
+	
+local Button = Tab:CreateButton({
+	Name = "Marker Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Testing-A-0ne-Piece-Game-LeadMarkerAOPG-1595"))()
+	end,
+})	
+	
+local Button = Tab:CreateButton({
+	Name = "Mukuro hub",
+	Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+	end,
+})	
+
+local Tab = Window:CreateTab("Build A Boat For Treasure", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Zaicha Hub",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/cVFSCGRb',true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Rolly_Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "BabFt",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+	end,
+})
+
+local Tab = Window:CreateTab("YBA", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Zkaters",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/v3.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Button Example",
+	Callback = function()
+		Settings =  {
+Items = {
+    ["LuckyArrow"] = true,
+    ["Rokakaka"] = true,
+    ["MysteriousArrow"] = true,
+    ["Candy"] = true,
+    ["PureRokakaka"] = true,
+    ["Diamond"] = true,
+    ["DiosDiary"] = true,
+    ["SteelBall"] = true,
+    ["RibCageofTheSaintsCorpse"] = true,
+    ["StoneMask"] = false,
+    ["GoldCoin"] = false,
+    ["QuintonsGlove"] = false,
+    ["AncientScroll"] = false,
+    ["ZepellinsHeadband"] = false,
+},
+StandFarm = true, 
+AutoItem = true, 
+LimitedFarm = true,
+Stands = {"Silver Chariot"},
+Rarity = {"Legendary"},
+Webhook = ""}
+---------------------------------------------------------
+---------- Notes on how to use and facts -------------
+------------- This auto farm item if the item is all used
+------------- It auto stop when got a shiny
+------------- remove all the list on "Stands" to only farm shinys 
+loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/NotHubris/02fe4e6975660b7f0424abdf58301f1c/raw"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Slap Battle", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Rogue Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Slap Farm",
+	Callback = function()
+		getgenv().farmEnabled = true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Roblox-Scripts/main/SlapBattles_Slapples.lua",true))()
+	end,
+})
+
+local Tab = Window:CreateTab("Jailbreak & Mad City", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub - Jailbreak",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Jailbreak Auto Rob",
+	Callback = function()
+		loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "MadCity Auto Rob",
+	Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))()
+	end,
+})
+
+local Tab = Window:CreateTab("My Restaurant", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Fast Farm",
+	Callback = function()
+   loadstring(game:HttpGet("https://rawscripts.net/raw/My-Restaurant!-Fast-Autofarm-4610"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Fruit Battle Ground", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+ 
+local Button = Tab:CreateButton({
+    Name = "Winnable Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/xlostpexz/tyuiop/Fps/Loading.lua"))()
+    end,
+})
+
+local Tab = Window:CreateTab("Fishing Simulator", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+ 
+local Button = Tab:CreateButton({
+    Name = "Winnable Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/xlostpexz/tyuiop/Fps/Loading.lua"))()
+    end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Tab = Window:CreateTab("Adopt Me", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto All",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/scripts/main/adoptmegui1'),true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "shnigelutils",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Cospog-Scripts/shnigelutils/main/mainLoader.lua'),true))()
+	end,
+})
+
+local Tab = Window:CreateTab("Ninja Legend", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "56 Clubs",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/rotartearadsaw/main/Ninja%20Legends%20Script%20Main%20Keyless"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "VG Hub",
+	Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Tab = Window:CreateTab("Tower Of Hell", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Darkrai X",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
+	end,
+})
+
+local Tab = Window:CreateTab("Vehicle Legends", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "UltimateHub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/IExpIoit/Script/main/UltimateHub"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Clicker Sim", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Auto Snow Flakes",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0clicksim", true))()
+	end,
+})
+
+local Tab = Window:CreateTab("Ro Ghoul", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "TrapHub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto Farm",
+	Callback = function()
+		loadstring(game:HttpGet(("https://aizen.ml/weis/RoGhoul.lua")))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "ZenHub",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bfmobile", true))()
+    end,
+})
+
+local Tab = Window:CreateTab("Doors", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Voidz",
+	Callback = function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/RTrade/Voidz/main/DoorsLoader")))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "d4rkfcker",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/D4rk9690/My-scripts/main/d4rkfcker", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Darkrai X",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Entity Spawner",
+	Callback = function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua")()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "ChibaHub",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHubcomeback/main/Chiba-Doors.txt'))()
+	end,
+})
+
+local Tab = Window:CreateTab("Bee Swarm", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Pepsi Swarm",
+	Callback = function()
+		loadstring(game:GetObjects("rbxassetid://4384103988")[0X1].Source)("Pepsi Swarm")
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Macro V2",
+	Callback = function()
+		loadstring(game:HttpGet("https://www.macrov2-script.xyz/macrov2.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Kometa",
+	Callback = function()
+		loadstring(game:HttpGet('https://s.kometa.ga/kometa.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "DarkCyber2",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/arktzyt/test/main/DarkCyber2.0"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Evade", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Strew",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/9Strew/roblox/main/gamescripts/evade.lua'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Hydra Network",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/1w70qxTw'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "CF-Trail",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/.x.vr.e.hi/evade.lua"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Darkrai X",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Anime Adventures", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Auto Farm",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Tower Defence", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Nicuse",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/TowerDefenseSimulator.lua', true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto Stack",
+	Callback = function()
+		local StackUnderground = false
+
+
+
+
+
+
+if StackUnderground then
+    ok = -10
+else
+    ok = 10
+end
+local times = 10
+local event = game:GetService("ReplicatedStorage").RemoteFunction
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/banbuskox/dfhtyxvzexrxgfdzgzfdvfdz/main/jsdnfjdsfdjnsmvkjhlkslzLIB", true))()
+local w = library:CreateWindow("Auto Stack")
+w:Section("Stacking")
+local Toggle = w:Toggle('Stacking Enabled', {flag = "toggle1"})
+w:Slider("Amount",
+    {
+        precise = false,
+        default = 10,
+        min = 1,
+        max = 15,
+    },
+function(v)
+	times = v
+end)
+w:Button('Upgrade All', function()
+for i,v in pairs(game.Workspace.Towers:GetChildren()) do
+    if v:WaitForChild("Owner").Value == game.Players.LocalPlayer then
+        event:InvokeServer("Troops","Upgrade","Set",{["Troop"] = v})
+        wait()
+    end
+end
+end)
+w:Section('DANGER ZONE')
+w:Button('Sell All', function()
+    for i,v in pairs(game.Workspace.Towers:GetChildren()) do
+        if v:WaitForChild("Owner").Value == game.Players.LocalPlayer then
+            event:InvokeServer("Troops","Sell",{["Troop"] = v})
+            wait()
+        end
+    end
+end)
+
+local Events = {
+    ["Troops"] = {
+        ["Place"] = function(Tower, PositionData)
+            if w.flags.toggle1 and not PositionData.CuntEmpire then
+                connection = game.Workspace.Towers.ChildAdded:Connect(function(v)
+                    connection:Disconnect()
+                    event:InvokeServer("Troops","Sell",{["Troop"] = v})
+                    wait()
+                    for c=1,times do
+                        event:InvokeServer("Troops","Place",Tower,{["Rotation"] = CFrame.new(0,ok,0,1,0,0,0,1,0,0,0,1),["Position"] = Vector3.new(PositionData.Position.X,0,PositionData.Position.Z),["CuntEmpire"] = true})
+                        wait()
+                    end
+                end)
+            end
+        end;
+    }
+}
+OldNamecall = hookmetamethod(game, "__namecall", newcclosure(function(...)
+    local Args = {...};
+    local Self = table.remove(Args, 1);
+    local Method = getnamecallmethod();
+    EndOfFunc = false
+    
+    if (not checkcaller()) then
+        if (table.find({"InvokeServer", "FireServer"}, Method)) then
+            coroutine.wrap(function()
+                local Select = table.remove(Args, 1);
+                local Current = Events[Select];
+                if (Current) then
+                    Current = Current[table.remove(Args, 1)];
+                    while (typeof(Current) == "table") do
+                        Current = Current[table.remove(Args, 1)];
+                    end;
+                    if (typeof(Current) == "function") then
+                        local a, b = pcall(Current, unpack(Args));
+                        warn(a, b);
+                    end;
+                end;
+            end)();
+        end;
+    end;
+    return OldNamecall(...);
+end));
+	end,
+})
+
+local Tab = Window:CreateTab("Bed Wars", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Vape V4",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/loadstring'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Darkrai X",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Bedwars"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "PotHub",
+	Callback = function()
+		loadstring(game:HttpGet("https://gist.githubusercontent.com/Tubers39/6324c8bc8800c3ede3306095085401ae/raw/b16a421c9a1a50ab819b23743ac056604d0927e0/PoTHUB", true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Rise Hub",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/RiseForRoblox/main/main.lua", true))()
+	end,
+})
+
+local Tab = Window:CreateTab("Da Hood", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "NukerMode",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "HitBox",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/SK5ShVu7'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Swag Mode",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto Farm Money",
+	Callback = function()
+		loadstring(game:HttpGet("https://www.klgrth.io/paste/urpoc/raw"))()
+	end,
+})
+
+local Tab = Window:CreateTab("Muscle Legends", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Speed Hub",
+	Callback = function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Muscle-Legends'),true))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto Farm",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/Roblox-Script/main/Muscle%20Legend"))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+    Name = "VG Hub",
+    Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    end,
+})
+
+local Tab = Window:CreateTab("Ragdoll Engine", 4483362458) -- Title, Image
+local Section = Tab:CreateSection("Scripts")
+
+local Button = Tab:CreateButton({
+	Name = "Malware",
+	Callback = function()
+		loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
+
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "MH",
+	Callback = function()
+		loadstring(game:HttpGet('https://gist.githubusercontent.com/H20CalibreYT/462f6e6236a9371130f113def6549bb1/raw/'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Crystal Hub",
+	Callback = function()
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/TestingLua/Hubs/main/Ragdoll%20Engine.lua")()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Button Example",
+	Callback = function()
+		
+	end,
+})
+
+Rayfield:LoadConfiguration()
