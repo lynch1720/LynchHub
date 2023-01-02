@@ -99,7 +99,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
 	Name = "Shift Lock",
 	Callback = function()
-		loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))();
+		loadstring(game:HttpGet('https://pastebin.com/raw/WQ9NPeDS'))()
 	end,
 })
 
